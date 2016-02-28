@@ -2,7 +2,7 @@ package pprg.philosopher;
 
 public class Application {
     public static void main(String[] args) {
-        Diner diner = new Diner(1, 1, 2);
-        diner.startDinner();
+        Dinner dinner = new Dinner(1, 1, 2);
+        dinner.startDinner();
     }
 }

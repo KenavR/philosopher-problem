@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
 
-public class Diner {
+public class Dinner {
 
     private final int maxThinkingTime;
     private final int maxEatingTime;
@@ -12,7 +12,7 @@ public class Diner {
     private ArrayList<Philosopher> philosophers = new ArrayList<>();
     private final List<Fork> forks;
 
-    public Diner(int maxThinkTime, int maxEatingTime, int numberOfPhilsophers) {
+    public Dinner(int maxThinkTime, int maxEatingTime, int numberOfPhilsophers) {
         this.maxThinkingTime = maxThinkTime;
         this.maxEatingTime = maxEatingTime;
         this.numberOfPhilsophers = numberOfPhilsophers;
