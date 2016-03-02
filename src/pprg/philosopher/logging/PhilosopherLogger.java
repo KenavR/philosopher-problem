@@ -19,7 +19,7 @@ public class PhilosopherLogger extends Logger {
             Handler consoleHandler = new ConsoleHandler();
             consoleHandler.setLevel(Level.FINE);
             instance.addHandler(consoleHandler);
-            instance.setLevel(Level.FINE);
+            instance.setLevel(Level.INFO);
         }
         return instance;
     }
